@@ -1,0 +1,10 @@
+﻿  TongXinWangLuo.cpp
+  graph.cpp
+F:\桌面\作业\大二\数据结构\实习\TongXinWangLuo\graph.cpp(22,14): warning C4477: “fscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“std::string *”
+F:\桌面\作业\大二\数据结构\实习\TongXinWangLuo\graph.cpp(24,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“std::string”
+F:\桌面\作业\大二\数据结构\实习\TongXinWangLuo\graph.cpp(31,14): warning C4477: “fscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“std::string *”
+F:\桌面\作业\大二\数据结构\实习\TongXinWangLuo\graph.cpp(33,14): warning C4477: “fscanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“std::string *”
+F:\桌面\作业\大二\数据结构\实习\TongXinWangLuo\graph.cpp(121,11): warning C4477: “printf”: 格式字符串“%c”需要类型“int”的参数，但可变参数 1 拥有了类型“std::string”
+F:\桌面\作业\大二\数据结构\实习\TongXinWangLuo\graph.cpp(121,11): warning C4477: “printf”: 格式字符串“%c”需要类型“int”的参数，但可变参数 2 拥有了类型“std::string”
+  正在生成代码...
+  TongXinWangLuo.vcxproj -> F:\桌面\作业\大二\数据结构\实习\TongXinWangLuo\Debug\TongXinWangLuo.exe
