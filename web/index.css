@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/***************最上方的导航栏****************/
+.nav {
+    height: 52px;
+    background-color: #533b77;
+}
+.nav ul {
+    display: block;
+    width: 1000px;
+    margin: 0 auto;
+}
+.nav li {
+    float: left;
+    position: relative;
+    padding: 0 22px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 52px;
+    cursor: pointer;
+}
+.nav li:hover {
+    background-color: #9982bc;
+}
+.nav ul li div {
+    display: none;
+    position: absolute;
+    margin-left: -22px;
+    background-color: #9982bc;
+}
+.nav ul li:hover div {
+    display: block;
+    width: 140px;
+}
+.nav ul li div a {
+    display: block;
+    padding-left: 30px;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+.nav ul li div a:hover {
+    background-color: #533b77;
+}
+/***************最上方的导航栏****************/
+
+
+/***************这是网页的头部****************/
+.header {
+    height: 95px;
+    width: 1000px;
+    margin: 0 auto;
+}
+.header>img {
+    float: left;
+}
+.header form {
+    float: right;
+    margin-top: 27px;
+}
+.header form input {
+    width: 209px;
+    height: 34px;
+    outline: none;
+    vertical-align:top;
+    border: solid 1px #af9ac0;
+    background-color: #f4f4f4;
+}
+.header form button {
+    border: none;
+    height: 36px;
+    width: 45px;
+    outline: none;
+    cursor: pointer;
+    vertical-align:top;
+    background-image: url(images/ss.gif);
+}
+/***************这是网页的头部****************/
+
+
+/*****************这是轮播图******************/
+.focus {
+    height: 350px;
+    background-color: #ebebed;
+}
+.focus div {
+    margin: 0 auto;
+    width: 1000px;
+}
+/*****************这是轮播图******************/
+
+
+/*****************这是一些公告之类的***********/
+.news {
+    height: 840px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 这是教务动态 */
+.news .dongtai {
+    float: left;
+    width: 697px;
+    margin: 0;
+    overflow: hidden;
+}
+.news .yitiao {
+    height: 62px;
+    overflow: hidden;
+}
+.news h4 {
+    float: left;
+    line-height: 62px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.news .moremore {
+    cursor: pointer;
+    float: right;
+    padding-right: 15px;
+    line-height: 62px;
+    color: #acabad;
+    font-size: 12px;
+}
+.news .moremore:hover {
+    text-decoration: underline;
+}
+.news .box {
+    float: left;
+    margin-bottom: 20px;
+    width: 348px;
+    height: 135px;
+    overflow: hidden;
+}
+.news .riqi {
+    float: left;
+    height: 63px;
+    width: 63px;
+    color: #5d2578;
+    background-color: #edeaf1;
+    text-align: center;
+}
+.news .riqi .day {
+    font-size: 23px;
+    line-height: 40px;
+}
+.news .riqi .year {
+    font-size: 10px;
+}
+.news .text {
+    padding-right: 15px;
+    float: right;
+    width: 248px;
+}
+.news .text h5 {
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 22px;
+}
+.news .text h5:hover {
+    text-decoration: underline;
+}
+.news .text p {
+    padding-right: 15px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #acaaaf;
+}
+/* 这是教务动态 */
+
+/* 这是通知公告 */
+.news .gonggao {
+    float: right;
+    width: 300px;
+    height: 772px;
+    background-color: #edeaf1;
+}
+.news .gonggao .subyitiao {
+    overflow: hidden;
+}
+.news .gonggao .subyitiao h4 {
+    padding-left: 15px;
+}
+.news .gonggao .subbox {
+    height: 67px;
+    width: 240px;
+    margin: 0 auto;
+    border-bottom: solid 1px  #acaaaf;
+    padding: 15px 15px;
+}
+.news .gonggao .subbox h5 {
+    cursor: pointer;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}
+.news .gonggao .subbox h5:hover {
+    text-decoration: underline;
+}
+.news .gonggao .subbox p {
+    font-size: 12px;
+    line-height: 20px;
+    color: #8a878e;
+}
+/* 这是通知公告 */
+/*****************这是一些公告之类的***********/
+
+
+/*************** 这里是一些服务项目 ***********/
+.fuwu {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: rgb(243,243,243);
+}
+.fuwu div {
+    float: left;
+    width: 250px;
+    text-align: center;
+    margin: 30px auto;
+}
+.fuwu div div {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #424242;
+}
+.fuwu div .binglie {
+    text-align: left;
+    margin-left: 60px;
+}
+.fuwu div div a {
+    color: rgb(85,85,85);
+}
+.fuwu div div a:hover {
+    text-decoration: underline;
+}
+/*************** 这里是一些服务项目 ***********/
+
+
+/*******************这里是常用链接*************/
+.more {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.more .zhengti {
+    margin: 25px auto;
+}
+.more h4 {
+    line-height: 62px;
+    font-size: 20px;
+    border-bottom: solid 1px #acaaaf;
+}
+.more .tu {
+    float: left;
+}
+.more .jxpt {
+    float: right;
+    margin: 0 110px;
+}
+.more .jxpt a {
+    color: rgb(125,125,125);
+    font-size: 12px;
+}
+.more .jxpt a:hover {
+    text-decoration: underline;
+}
+/*******************这里是常用链接*************/
+
+
+/***************** 这是网页的底部 *************/
+.footer {
+    height: 207px;
+    background-color: #312543;
+}
+.footer .subfooter {
+    width: 1000px;
+    margin: 0 auto;
+}
+.footer img {
+    margin-top: 31px;
+}
+.footer .detail {
+    position: relative;
+    left: 200px;
+    top: -100px;
+    color: #f4f4f4;
+    line-height: 30px;
+    font-size: 12px;
+}
+/***************** 这是网页的底部 *************/
